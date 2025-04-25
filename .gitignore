@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.vscode
+
+# Distribution / packaging
+chroma
+faiss
+
+# Virtual Environment/ Variables
+venv
+.env
+.streamlit
+
+# Data
+datasets
+
+# Local Models
+models

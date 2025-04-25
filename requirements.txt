@@ -1,0 +1,10 @@
+streamlit
+bs4
+playwright
+faiss-cpu
+langchain
+langchain-community
+langchain-core
+sentence-transformers
+tqdm
+python-dotenv
