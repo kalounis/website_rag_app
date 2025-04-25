@@ -7,7 +7,7 @@ This repository contains the backend code for a RAG-based web application design
 The functions needed throughout the code have been implemented as modules, allowing them to be reused in other projects or for different purposes.
 
 ## Repository structure
-
+```
 ├── requirements.txt                       # Dependencies
 ├── setup.sh                               # Deployment install script
 └── src                                    # Source code
@@ -19,7 +19,7 @@ The functions needed throughout the code have been implemented as modules, allow
         └── data                           # Data processing module
         └── rag                            # RAG Pipeline module
         └── web                            # Webscrapping module               
-
+```
 ## Code description
 
 ### `setup.sh`
