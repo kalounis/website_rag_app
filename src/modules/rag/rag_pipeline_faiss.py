@@ -2,7 +2,7 @@ import os
 
 import requests
 import streamlit as st
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from langchain.vectorstores.base import VectorStore
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -60,7 +60,7 @@ class RAGPipelineAPIFAISS:
             allow_dangerous_deserialization=True,
         )
 
-        self.prompt_template = PromptTemplate.from_template(PROMPT_TEMPLATE)
+        self.prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
 
     def _download_file(self, url, output_path):
         headers = {"Authorization": f"Bearer {HF_TOKEN}"}
